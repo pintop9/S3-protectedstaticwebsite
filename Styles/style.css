@@ -54,11 +54,12 @@ body {
     font-weight: bold;
 }
 
-.text-container {
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#header img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
 }
 
 @media (max-width: 768px) {
