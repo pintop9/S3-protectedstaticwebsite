@@ -35,7 +35,7 @@ You also need to have your AWS credentials configured. You can do this by runnin
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Static_website
+   cd S3-protectedstaticwebsite
    ```
 3. Initialize Terraform:
    ```bash
