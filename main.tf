@@ -12,14 +12,6 @@ terraform {
 }
 
 provider "aws" {
-  region                   = "il-central-1"
-  shared_config_files      = ["~/.aws/config"]
-  shared_credentials_files = ["~/.aws/credentials"]
-  profile                  = "default"
-}
-
-provider "aws" {
-  alias                    = "us_east_1"
   region                   = "us-east-1"
   shared_config_files      = ["~/.aws/config"]
   shared_credentials_files = ["~/.aws/credentials"]
@@ -186,7 +178,6 @@ resource "null_resource" "cloudfront_invalidation" {
 
 # WAF Web ACL
 resource "aws_wafv2_web_acl" "waf" {
-  provider    = aws.us_east_1
   name        = "my-waf-acl"
   description = "WAF ACL for protecting CloudFront distribution"
   scope       = "CLOUDFRONT"

@@ -1,6 +1,6 @@
 # Static Website with Terraform on AWS
 
-This project deploys a simple static website to an AWS S3 bucket in IL-central region, served via CloudFront. The infrastructure is managed using Terraform.
+This project deploys a simple static website to an AWS S3 bucket in us-east-1 region, served via CloudFront. The infrastructure is managed using Terraform.
 
 ## Description
 
