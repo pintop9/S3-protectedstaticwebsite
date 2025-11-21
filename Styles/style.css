@@ -54,21 +54,16 @@ body {
     font-weight: bold;
 }
 
-#header img {
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
-    background-color: transparent;
-    mix-blend-mode: multiply;
+.text-container {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
     #header {
         flex-direction: column;
-    }
-    #header img {
-        margin-right: 0;
-        margin-bottom: 10px;
     }
     .container {
         padding: 15px;
