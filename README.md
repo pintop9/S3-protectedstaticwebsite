@@ -31,7 +31,7 @@ You also need to have your AWS credentials configured. You can do this by runnin
 
 1. Clone the repository:
    ```bash
-   git clone [<repository-url>](https://github.com/pintop9/S3-protectedstaticwebsite)
+   git clone https://github.com/pintop9/S3-protectedstaticwebsite
    ```
 2. Navigate to the project directory:
    ```bash
