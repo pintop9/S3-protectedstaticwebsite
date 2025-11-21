@@ -14,6 +14,7 @@ The infrastructure is deployed on AWS and consists of:
 
 ## Architecture
 
+<img width="961" height="551" alt="AWS static hosting drawio" src="https://github.com/user-attachments/assets/3459be96-06c2-4684-95bd-3290f7e1778c" />
 
 
 ## Security Measures
@@ -58,6 +59,9 @@ To destroy the infrastructure, run:
 ```bash
 terraform destroy
 ```
+## Website screenshot example
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aa3eea1d-8efb-407c-bc81-5785b6eb4716" />
 
 ## Terraform Resources
 
