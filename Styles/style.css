@@ -59,6 +59,7 @@ body {
     height: auto;
     margin-right: 20px;
     background-color: transparent;
+    mix-blend-mode: multiply;
 }
 
 @media (max-width: 768px) {
