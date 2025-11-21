@@ -12,6 +12,10 @@ The infrastructure is deployed on AWS and consists of:
 - A WAF Web ACL to protect the CloudFront distribution.
 - An Origin Access Identity to restrict direct access to the S3 bucket.
 
+## Architecture
+
+
+
 ## Security Measures
 
 This project implements several security measures to protect the static website:
